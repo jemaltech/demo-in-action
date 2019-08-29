@@ -1,0 +1,11 @@
+version: '2'
+services:
+  bootcamp-postgresql:
+    image: postgres:11.4
+    # volumes:
+    #     - ~/volumes/jhipster/bootcamp/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=bootcamp
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

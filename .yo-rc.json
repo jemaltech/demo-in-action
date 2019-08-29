@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "ethiotechinfo",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "monolith",
+    "baseName": "bootcamp",
+    "packageName": "ethiotechinfo",
+    "packageFolder": "ethiotechinfo",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MmI0YzliODQ3NzIyMjg2ZmNmOWE2Yjk4NWMxNjYzZTVlZmYzMGJjYWJmODk0ZWQ0YTJjNTE2NzYwOGNlOTEyYzNlNmQ2ZjNiZWI3NzhiNzNjOTVjMjMzM2IxM2E2YjQ2MjJhMWIxODk3OWFhMzM4YzhkODZmNGViODFkMGQ1MzI=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "lux",
+    "clientThemeVariant": "primary",
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "ar-ly", "zh-cn", "da", "de"],
+    "blueprints": []
+  }
+}
